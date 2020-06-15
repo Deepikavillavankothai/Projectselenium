@@ -18,6 +18,8 @@ public static void main (String[] args) {
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	
 	driver.get("https://www.facebook.com/");
+	
+	
 	//System.out.println("Title of the page :" +driver.getTitle());
 	
 	
